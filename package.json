@@ -1,0 +1,22 @@
+{
+  "name": "clipboard",
+  "version": "1.0.0",
+  "description": "Responsive clipboard landing page using sass",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmirville/clipboard-landing-page.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Raynald Mirville",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmirville/clipboard-landing-page/issues"
+  },
+  "homepage": "https://github.com/rmirville/clipboard-landing-page#readme"
+}
