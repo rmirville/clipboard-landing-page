@@ -1,29 +1,6 @@
+@import "_variables"
 @import "_spacing"
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap')
-
-$brkpnt-phone-max: 575px
-$brkpnt-tab-min: 576px
-$brkpnt-tab-max: 767px
-$brkpnt-desk-min: 768px
-
-$color-neutral-primary: hsl(210, 10%, 33%)
-$color-neutral-secondary: hsl(201, 11%, 66%)
-
-$color-container-light-bg: hsl(220, 18%, 97%)
-
-$color-ix-dark-shadow-alpha: .27
-$color-ix-dark-primary-bg: hsl(171, 66%, 44%)
-$color-ix-dark-primary-shadow: hsla(171, 66%, 44%, $color-ix-dark-shadow-alpha)
-$color-ix-dark-secondary-bg: hsl(233, 100%, 69%)
-$color-ix-dark-secondary-shadow: hsla(233, 100%, 69%, $color-ix-dark-shadow-alpha)
-$color-ix-dark-shadow-pos: 0 10px 18px
-$color-ix-dark-shadow-inset: inset 0 -3px 0 hsla(0, 0%, 0%, .2)
-
-$color-ix-dark-text: white
-
-$fonts: 'Bai Jamjuree', Helvetica, Arial, sans-serif
-$font-weight-regular: 400
-$font-weight-bold: 600
 
 html
   font-size: 16px
@@ -51,9 +28,9 @@ body > .header
     width: 125px
 
 .section
+  margin: 0 auto
   padding: 0 32px
 
-.section
   .title
     margin: 16px 0 0
     font-size: 27px
@@ -81,7 +58,7 @@ body > .header
 
 
 .section.hero
-  margin: 0 0 160px
+  margin-bottom: 160px
 
   .title
     font-size: 31px
@@ -93,7 +70,7 @@ body > .header
 
 
 .section.split-content-right
-  margin: 65px 0 0
+  margin-top: 65px
   
   .content
     margin: 57px 0 0
@@ -135,18 +112,18 @@ body > .header
 
 
 .section.media-item-caption-top
-  margin: 186px 0 0
+  margin-top: 186px
 
 
 
 .section.media-item-bottom
-  margin: 60px 0 0
+  margin-top: 60px
   padding: 0 14px
 
 
 
 .section.media-list
-  margin: 131px 0 0
+  margin-top: 131px
 
   .subsection
     margin: 55px 0 0
@@ -157,7 +134,7 @@ body > .header
 
 
 .section.cta
-  margin: 170px 0 0
+  margin-top: 170px
 
   .btns
     margin: 46px 0
@@ -210,8 +187,3 @@ body > .header
 
     .icon
       width: 24px
-
-@media (min-width: $brkpnt-tab-min)
-  body
-    background-image: url("../images/bg-header-desktop.png")
-

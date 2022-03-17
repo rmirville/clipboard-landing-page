@@ -1,0 +1,37 @@
+@media (min-width: 576px) {
+  body {
+    background-image: url("../images/bg-header-desktop.png");
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  .section {
+    width: auto;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .section .title {
+    font-size: 35px;
+    letter-spacing: -0.1px;
+  }
+  .section .subsection .title {
+    font-size: 23px;
+    letter-spacing: 0;
+  }
+  .section .subsection .content {
+    font-size: 16px;
+  }
+
+  .section.hero .title {
+    font-size: 45px;
+    letter-spacing: -0.2px;
+  }
+  .section.hero .content {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

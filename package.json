@@ -4,8 +4,8 @@
   "description": "Responsive clipboard landing page using sass",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass styles/styles.sass styles/styles.css"
+    "build": "sass styles/styles.sass:styles/styles.css styles/responsive.sass:styles/responsive.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
