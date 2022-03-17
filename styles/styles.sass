@@ -1,0 +1,217 @@
+@import "_spacing"
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap')
+
+$brkpnt-phone-max: 575px
+$brkpnt-tab-min: 576px
+$brkpnt-tab-max: 767px
+$brkpnt-desk-min: 768px
+
+$color-neutral-primary: hsl(210, 10%, 33%)
+$color-neutral-secondary: hsl(201, 11%, 66%)
+
+$color-container-light-bg: hsl(220, 18%, 97%)
+
+$color-ix-dark-shadow-alpha: .27
+$color-ix-dark-primary-bg: hsl(171, 66%, 44%)
+$color-ix-dark-primary-shadow: hsla(171, 66%, 44%, $color-ix-dark-shadow-alpha)
+$color-ix-dark-secondary-bg: hsl(233, 100%, 69%)
+$color-ix-dark-secondary-shadow: hsla(233, 100%, 69%, $color-ix-dark-shadow-alpha)
+$color-ix-dark-shadow-pos: 0 10px 18px
+$color-ix-dark-shadow-inset: inset 0 -3px 0 hsla(0, 0%, 0%, .2)
+
+$color-ix-dark-text: white
+
+$fonts: 'Bai Jamjuree', Helvetica, Arial, sans-serif
+$font-weight-regular: 400
+$font-weight-bold: 600
+
+html
+  font-size: 16px
+  font-family: $fonts
+  line-height: 26px
+
+body
+  background-size: 100%
+  background-repeat: no-repeat
+  background-position: top
+  background-image: url("../images/bg-header-mobile.png")
+  margin: 0
+  text-align: center
+  color: $color-neutral-secondary
+
+h1, h2, h3, h4, h5, h6, .section .title
+  color: $color-neutral-primary
+
+
+
+body > .header
+  padding: 124px 0 41px 0
+
+  .logo
+    width: 125px
+
+.section
+  padding: 0 32px
+
+.section
+  .title
+    margin: 16px 0 0
+    font-size: 27px
+    line-height: 35px
+    font-weight: $font-weight-bold
+  
+  .content
+    margin: 16px 0 0
+    letter-spacing: 0.1px
+  
+  .media
+    max-width: 100%
+
+  > img.media
+    vertical-align: bottom
+  
+  .subsection
+    .title
+      font-size: 23px
+      line-height: 28px
+
+    .content
+      padding: 0
+
+
+
+.section.hero
+  margin: 0 0 160px
+
+  .title
+    font-size: 31px
+    line-height: 40px
+
+  .btns
+    margin: 48px 0
+
+
+
+.section.split-content-right
+  margin: 65px 0 0
+  
+  .content
+    margin: 57px 0 0
+
+  .subsection
+    .content
+      margin: 10px 0 0
+      
+    .title
+      margin: 50px 0 0
+
+
+
+.section.split-3
+  .content
+    margin: 34px 0 0
+
+  .header
+    padding: 0
+    margin: 95px 0 0
+
+    .title
+      margin: 0
+
+    .content
+      margin: 11px 0 0
+  
+  .subsection
+    .icon
+      vertical-align: bottom
+      margin: 56px 0 0
+    
+    .title
+      margin: 41px 0 0
+
+    .content
+      margin: 19px 0 0
+
+
+
+.section.media-item-caption-top
+  margin: 186px 0 0
+
+
+
+.section.media-item-bottom
+  margin: 60px 0 0
+  padding: 0 14px
+
+
+
+.section.media-list
+  margin: 131px 0 0
+
+  .subsection
+    margin: 55px 0 0
+
+    img
+      vertical-align: bottom
+
+
+
+.section.cta
+  margin: 170px 0 0
+
+  .btns
+    margin: 46px 0
+  
+  .btn
+    margin: 24px 0
+
+
+
+
+.btn
+  display: block
+  margin: 24px 0
+  border-radius: 28px
+  background-color: $color-ix-dark-primary-bg
+  font-size: 18px
+  line-height: 56px
+  font-weight: $font-weight-bold
+  letter-spacing: 0.5px
+  text-decoration: none
+  color: $color-ix-dark-text
+  box-shadow: $color-ix-dark-shadow-inset, $color-ix-dark-shadow-pos $color-ix-dark-primary-shadow
+
+.btn-secondary
+  background-color: $color-ix-dark-secondary-bg
+  box-shadow: $color-ix-dark-shadow-inset, $color-ix-dark-shadow-pos $color-ix-dark-secondary-shadow
+
+.footer
+  background-color: $color-container-light-bg
+  margin: 170px 0 0
+  padding: 52px 0 44px
+
+  .logo
+    width: 55px
+
+  .menu
+    margin: 23px 0 0
+    padding: 0
+    font-size: 18px
+    line-height: 50px
+    list-style-type: none
+    color: $color-neutral-primary
+
+  .icons
+    display: flex
+    align-items: center
+    justify-content: space-around
+    margin: 38px auto 0
+    max-width: 192px
+
+    .icon
+      width: 24px
+
+@media (min-width: $brkpnt-tab-min)
+  body
+    background-image: url("../images/bg-header-desktop.png")
+
