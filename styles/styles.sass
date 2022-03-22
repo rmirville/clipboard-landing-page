@@ -71,16 +71,19 @@ body > .header
 
 .section.split-content-right
   margin-top: 65px
+
+  .col-media
+    .media
+      vertical-align: bottom
   
-  .content
+  .col-content
     margin: 57px 0 0
 
-  .subsection
-    .content
-      margin: 10px 0 0
-      
-    .title
-      margin: 50px 0 0
+  .content
+    margin: 10px 0 0
+    
+  .title
+    margin: 50px 0 0
 
 
 
@@ -99,9 +102,11 @@ body > .header
       margin: 11px 0 0
   
   .subsection
+    .media
+      margin: 56px 0 0
+
     .icon
       vertical-align: bottom
-      margin: 56px 0 0
     
     .title
       margin: 41px 0 0
@@ -165,7 +170,7 @@ body > .header
 .footer
   background-color: $color-container-light-bg
   margin: 170px 0 0
-  padding: 52px 0 44px
+  padding: 52px 32px 44px
 
   .logo
     width: 55px
@@ -178,12 +183,23 @@ body > .header
     list-style-type: none
     color: $color-neutral-primary
 
+    .link
+      color: $color-neutral-primary
+      text-decoration: none
+
   .icons
     display: flex
     align-items: center
     justify-content: space-around
-    margin: 38px auto 0
+    width: 100%
     max-width: 192px
+    margin: 38px auto 0
 
     .icon
       width: 24px
+
+
+.clearfix::after
+  content: ""
+  clear: both
+  display: table
