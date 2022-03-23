@@ -19,7 +19,8 @@ body
 h1, h2, h3, h4, h5, h6, .section .title
   color: $color-neutral-primary
 
-
+a:active, a:hover
+  color: $color-neutral-primary
 
 body > .header
   padding: 124px 0 41px 0
@@ -150,6 +151,9 @@ body > .header
 
 
 
+.btn, .btn:active, .btn:hover, .btn-secondary, .btn-secondary:active, .btn-secondary:hover
+  color: $color-ix-dark-text
+  
 .btn
   display: block
   margin: 24px 0
@@ -160,12 +164,19 @@ body > .header
   font-weight: $font-weight-bold
   letter-spacing: 0.5px
   text-decoration: none
-  color: $color-ix-dark-text
   box-shadow: $color-ix-dark-shadow-inset, $color-ix-dark-shadow-pos $color-ix-dark-primary-shadow
+
+.btn:active, .btn:hover
+  background-color: $color-ix-dark-primary-bg-active
+  box-shadow: $color-ix-dark-shadow-active-inset, $color-ix-dark-shadow-pos $color-ix-dark-primary-shadow-active
 
 .btn-secondary
   background-color: $color-ix-dark-secondary-bg
   box-shadow: $color-ix-dark-shadow-inset, $color-ix-dark-shadow-pos $color-ix-dark-secondary-shadow
+
+.btn-secondary:active, .btn-secondary:hover
+  background-color: $color-ix-dark-secondary-bg-active
+  box-shadow: $color-ix-dark-shadow-active-inset, $color-ix-dark-shadow-pos $color-ix-dark-secondary-shadow-active
 
 .footer
   background-color: $color-container-light-bg
@@ -186,6 +197,9 @@ body > .header
     .link
       color: $color-neutral-primary
       text-decoration: none
+    
+    .link:active, .link:hover
+      color: $color-active
 
   .icons
     display: flex
@@ -197,6 +211,9 @@ body > .header
 
     .icon
       width: 24px
+    
+    .link:active .icon, .link:hover .icon
+      fill: $color-active
 
 
 .clearfix::after
