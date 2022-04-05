@@ -44,9 +44,6 @@ body > .header
   
   .media
     max-width: 100%
-
-  > img.media
-    vertical-align: bottom
   
   .subsection
     .title
@@ -72,10 +69,6 @@ body > .header
 
 .section.split-content-right
   margin-top: 65px
-
-  .col-media
-    .media
-      vertical-align: bottom
   
   .col-content
     margin: 57px 0 0
@@ -92,6 +85,9 @@ body > .header
   .content
     margin: 34px 0 0
 
+  .media
+    margin: 56px 0 0
+
   .header
     padding: 0
     margin: 95px 0 0
@@ -103,12 +99,6 @@ body > .header
       margin: 11px 0 0
   
   .subsection
-    .media
-      margin: 56px 0 0
-
-    .icon
-      vertical-align: bottom
-    
     .title
       margin: 41px 0 0
 
@@ -134,9 +124,6 @@ body > .header
   .subsection
     margin: 55px 0 0
 
-    img
-      vertical-align: bottom
-
 
 
 .section.cta
@@ -144,10 +131,11 @@ body > .header
 
   .btns
     margin: 46px 0
-  
-  .btn
-    margin: 24px 0
 
+
+
+img.media
+  vertical-align: bottom
 
 
 
@@ -178,6 +166,16 @@ body > .header
   background-color: $color-ix-dark-secondary-bg-active
   box-shadow: $color-ix-dark-shadow-active-inset, $color-ix-dark-shadow-pos $color-ix-dark-secondary-shadow-active
 
+.link
+  color: $color-neutral-primary
+  text-decoration: none
+
+.link:active, .link:hover
+  color: $color-active
+    
+.link:active .icon, .link:hover .icon
+  fill: $color-active
+
 .footer
   background-color: $color-container-light-bg
   margin: 170px 0 0
@@ -194,13 +192,6 @@ body > .header
     list-style-type: none
     color: $color-neutral-primary
 
-    .link
-      color: $color-neutral-primary
-      text-decoration: none
-    
-    .link:active, .link:hover
-      color: $color-active
-
   .icons
     display: flex
     align-items: center
@@ -209,11 +200,8 @@ body > .header
     max-width: 192px
     margin: 38px auto 0
 
-    .icon
-      width: 24px
-    
-    .link:active .icon, .link:hover .icon
-      fill: $color-active
+  .icon
+    width: 24px
 
 
 .clearfix::after
