@@ -17,34 +17,37 @@
     max-width: 700px;
     margin: 0 auto;
   }
-  .section .title {
+
+  .title {
     font-size: 35px;
     letter-spacing: -0.1px;
   }
-  .section .content {
+
+  .content {
     margin-top: 24px;
   }
-  .section .subsection .title {
+
+  .subsection .title {
     font-size: 23px;
     letter-spacing: 0;
   }
-  .section .subsection .content {
+  .subsection .content {
     font-size: 16px;
   }
 
-  .section.hero {
+  .hero {
     margin-bottom: 155px;
   }
-  .section.hero .title {
+  .hero .title {
     font-size: 45px;
     letter-spacing: -0.2px;
   }
-  .section.hero .content {
+  .hero .content {
     margin-top: 25px;
     font-size: 20px;
   }
 
-  .section.split-content-right {
+  .split-content-right {
     max-width: 100%;
     margin-top: 80px;
     margin-left: 0;
@@ -52,94 +55,94 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .section.split-content-right .col {
+  .split-content-right .col {
     box-sizing: border-box;
     float: left;
     width: 50%;
     margin-top: 0;
   }
-  .section.split-content-right .col-media {
+  .split-content-right .col-media {
     overflow-x: hidden;
   }
-  .section.split-content-right .col-content {
+  .split-content-right .col-content {
     max-width: 560px;
     padding: 12px 110px 0;
     text-align: left;
   }
-  .section.split-content-right .title {
+  .split-content-right .title {
     margin-top: 58px;
   }
-  .section.split-content-right .content {
+  .split-content-right .content {
     margin-top: 8px;
   }
-  .section.split-content-right .media {
+  .split-content-right .media {
     float: right;
     min-width: 752px;
   }
 
-  .section.split-3 {
+  .split-3 {
     max-width: 1110px;
   }
-  .section.split-3 .header {
+  .split-3 .header {
     margin-top: 76px;
   }
-  .section.split-3 .header .content {
+  .split-3 .header .content {
     margin-top: 24px;
   }
-  .section.split-3 > .content {
+  .split-3 > .content {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
   }
-  .section.split-3 .subsection {
+  .split-3 .subsection {
     width: 33%;
     max-width: 350px;
   }
-  .section.split-3 .subsection .media {
+  .split-3 .subsection .media {
     margin-top: 0;
     height: 40px;
     line-height: 40px;
   }
-  .section.split-3 .subsection .icon {
+  .split-3 .subsection .icon {
     padding-bottom: 0;
     vertical-align: middle;
   }
-  .section.split-3 .subsection .title {
+  .split-3 .subsection .title {
     margin-top: 43px;
   }
-  .section.split-3 .subsection .content {
+  .split-3 .subsection .content {
     margin-top: 17px;
     line-height: 30px;
   }
 
-  .section.media-item-caption-top {
+  .media-item-caption-top {
     margin-top: 155px;
   }
 
-  .section.media-item-bottom {
+  .media-item-bottom {
     margin-top: 100px;
     max-width: unset;
   }
 
-  .section.media-list {
+  .media-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1110px;
     margin-top: 158px;
   }
-  .section.media-list .media {
+  .media-list .media {
     width: 100%;
   }
-  .section.media-list .subsection {
+  .media-list .subsection {
     margin-top: 0;
     padding-top: 0;
   }
 
-  .section.cta {
+  .cta {
     margin-top: 164px;
   }
-  .section.cta .btns {
+  .cta .btns {
     margin: 48px 0;
   }
 
