@@ -94,14 +94,14 @@
     justify-content: space-between;
     margin-top: 70px;
   }
-  .split-3 .subsection {
-    width: 33%;
-    max-width: 350px;
-  }
-  .split-3 .subsection .media {
+  .split-3 .media {
     margin-top: 0;
     height: 40px;
     line-height: 40px;
+  }
+  .split-3 .subsection {
+    width: 33%;
+    max-width: 350px;
   }
   .split-3 .subsection .icon {
     padding-bottom: 0;
