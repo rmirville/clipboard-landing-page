@@ -37,8 +37,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 Changing font styles, like font-size and line-height, can undo spacing work between sections. Matching fonts and text-spacing to a design first reduces repeat spacing efforts.
@@ -51,3 +49,4 @@ In the future, I'll look at best practices for organizing Sass, as well as css n
 
 - Website - [Raynald Mirville](https://raynaldmirville.com)
 - Frontend Mentor - [@rmirville](https://www.frontendmentor.io/profile/rmirville)
+- Twitter - [@rainalldaylong](https://www.twitter.com/rainalldaylong)
