@@ -44,7 +44,7 @@ a:active, a:hover {
 }
 
 body > .header {
-  padding: 124px 0 41px 0;
+  padding: 123px 0 41px 0;
 }
 body > .header .logo {
   width: 125px;
@@ -57,9 +57,12 @@ body > .header .logo {
 
 .title, .subtitle {
   margin: 16px 0 0;
+  font-weight: 600;
+}
+
+.title {
   font-size: 27px;
   line-height: 35px;
-  font-weight: 600;
 }
 
 .content, .subcontent {
@@ -103,25 +106,28 @@ body > .header .logo {
 .split-content-right .subtitle {
   margin: 50px 0 0;
 }
+.split-content-right .subcontent {
+  margin-top: 11px;
+}
 
 .split-3 .title {
   margin: 0;
 }
 .split-3 .content {
-  margin: 34px 0 0;
-}
-.split-3 .media {
-  margin: 56px 0 0;
+  margin: 90px 0 0;
 }
 .split-3 .header {
   padding: 0;
   margin: 95px 0 0;
 }
 .split-3 .headcontent {
-  margin: 11px 0 0;
+  margin: 10px 0 0;
+}
+.split-3 .subsection {
+  margin: 56px 0 0;
 }
 .split-3 .subtitle {
-  margin: 41px 0 0;
+  margin: 34px 0 0;
 }
 .split-3 .subcontent {
   margin: 19px 0 0;
@@ -203,6 +209,9 @@ img.media {
   background-color: #f6f7f9;
   margin: 170px 0 0;
   padding: 52px 32px 44px;
+}
+.footer .content {
+  margin-top: 0;
 }
 .footer .logo {
   width: 55px;

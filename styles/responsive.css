@@ -96,7 +96,6 @@
     margin-top: 70px;
   }
   .split-3 .media {
-    margin-top: 0;
     height: 40px;
     line-height: 40px;
   }
@@ -108,6 +107,7 @@
     margin-top: 43px;
   }
   .split-3 .subsection {
+    margin-top: 0;
     width: 33%;
     max-width: 350px;
   }
