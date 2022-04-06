@@ -62,7 +62,7 @@ body > .header .logo {
   font-weight: 600;
 }
 
-.content {
+.content, .subcontent {
   margin: 16px 0 0;
   letter-spacing: 0.1px;
 }
@@ -71,7 +71,7 @@ body > .header .logo {
   max-width: 100%;
 }
 
-.subsection .content {
+.subcontent {
   padding: 0;
 }
 
@@ -117,13 +117,13 @@ body > .header .logo {
   padding: 0;
   margin: 95px 0 0;
 }
-.split-3 .header .content {
+.split-3 .headcontent {
   margin: 11px 0 0;
 }
 .split-3 .subtitle {
   margin: 41px 0 0;
 }
-.split-3 .subsection .content {
+.split-3 .subcontent {
   margin: 19px 0 0;
 }
 

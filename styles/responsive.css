@@ -23,7 +23,7 @@
     letter-spacing: -0.1px;
   }
 
-  .content {
+  .content, .subcontent {
     margin-top: 24px;
   }
 
@@ -32,7 +32,7 @@
     letter-spacing: 0;
   }
 
-  .subsection .content {
+  .subcontent {
     font-size: 16px;
   }
 
@@ -87,10 +87,10 @@
   .split-3 .header {
     margin-top: 76px;
   }
-  .split-3 .header .content {
+  .split-3 .headcontent {
     margin-top: 24px;
   }
-  .split-3 > .content {
+  .split-3 .content {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
@@ -111,7 +111,7 @@
     width: 33%;
     max-width: 350px;
   }
-  .split-3 .subsection .content {
+  .split-3 .subcontent {
     margin-top: 17px;
     line-height: 30px;
   }
