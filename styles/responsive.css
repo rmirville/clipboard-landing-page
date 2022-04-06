@@ -27,10 +27,11 @@
     margin-top: 24px;
   }
 
-  .subsection .title {
+  .subtitle {
     font-size: 23px;
     letter-spacing: 0;
   }
+
   .subsection .content {
     font-size: 16px;
   }
@@ -99,16 +100,16 @@
     height: 40px;
     line-height: 40px;
   }
-  .split-3 .subsection {
-    width: 33%;
-    max-width: 350px;
-  }
-  .split-3 .subsection .icon {
+  .split-3 .icon {
     padding-bottom: 0;
     vertical-align: middle;
   }
-  .split-3 .subsection .title {
+  .split-3 .subtitle {
     margin-top: 43px;
+  }
+  .split-3 .subsection {
+    width: 33%;
+    max-width: 350px;
   }
   .split-3 .subsection .content {
     margin-top: 17px;
